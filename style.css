@@ -115,7 +115,6 @@ img[alt="search"]{
 }
 #listContainer>div:last-child{
     font-weight: 800;
-    padding-top: 2rem;
 }
 .listHeader, .shoppingList>div{
     display: grid;
