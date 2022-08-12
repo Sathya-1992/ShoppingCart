@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingCart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Logo</header>
+        <main>
+            <div class="smallCont">
+                <div class="searchPart">
+                    <div>
+                        <span>Products</span>
+                        <button id="allList">All List</button>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Search" id="searchInput">
+                        <img src="./Image/search.png" alt="search" id="searchBtn">
+                    </div>
+                </div>
+                <div id="cartList"></div>
+            </div>
+            <div class="rightCont">
+                <span>My Cart</span>
+                <div id="listContainer">
+                    <div class="listHeader">
+                        <div>Product List</div>
+                        <div>Cost</div>
+                    </div>
+                    <div class="shoppingList"></div>
+                    <div class="listHeader">
+                        <div>Total</div>
+                        <div id="total"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
